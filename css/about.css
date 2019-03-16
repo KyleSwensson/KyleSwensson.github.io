@@ -1,0 +1,85 @@
+.self-pic {
+	width: 23%;
+	border-style: solid;
+	border-color: #000E21;
+	border-width: 3.7px;
+	border-radius: 5px;
+}
+
+.content-holder-1 {
+	padding-top: 2em;
+	width: 100%;
+	color: #ffffff;
+}
+
+.content-holder-2 {
+	display: flex;
+    justify-content: space-between;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.about-me-text {
+	display: inline-block;
+	float: right;
+	width: 72%;
+	padding: 1em;
+	border-radius: 5px;
+}
+
+.about-me-intro {
+	font-size: 2.2em;
+	font-weight: 600;
+}
+
+.about-me-body {
+	margin-top: 0.3em;
+	font-size: 1.2em;
+}
+
+.skillset-box {
+	display: inline-block;
+	width: 30%;
+	border-style: solid;
+	border-color: #000E21;
+	border-width: 3.7px;
+	border-radius: 5px;
+	text-align: center;
+	color: #474747;
+	background-color: #eeeeee;
+}
+
+.skillset-title {
+	padding-top: 0.6em;
+	margin-bottom: 0.6em;
+	padding-bottom: 0.5em;
+	color: #ffffff;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.skillset-icon {
+	color: #ffffff;
+	padding-top: 0.3em;
+}
+
+.skillset-lesser-title {
+	margin-top: 0.6em;
+	margin-bottom: 0.4em;
+	color: #000E21;	
+	font-size: 1.18em;
+    font-weight: 700;
+}
+
+.skillset-description {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.skillset-box-ending {
+	margin-bottom: 1.2em;
+}
+
+.skillset-box-header {
+	background-color: #000E21;	
+}
