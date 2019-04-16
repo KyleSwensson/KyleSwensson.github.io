@@ -1,98 +1,126 @@
 <html>
 <head>
-	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/projects.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="SHORTCUT ICON" href="img/favicon.ico" type="image/x-icon" />
+	<link rel="ICON" href="img/favicon.ico" type="image/ico" />
+	<title>Work | Kyle Swensson</title>
 </head>
 
 <body>
 	
 	<div class="tab-header">
 	<!-- weird spacing on these spans to avoid spaces between inline-block elements -->
-		<span class="colored-bg-tab color-1 tab-1">
-			<p class="tab-text">about</p>
+		<span class="colored-bg-tab tab-1">
+			<div class="tab-text">
+				<div class="tab-bg-unselected"></div>
+				<p class="tab-text-inner">about</p>
+			</div>
+			<div class="tab-footer color-1"></div>
 		</span
-		><span class="colored-bg-tab color-2 tab-2">
-			<p class="tab-text">projects</p>
+		><span class="colored-bg-tab tab-2">
+			<div class="tab-text">
+				<div class="tab-bg-unselected"></div>
+				<div class="tab-bg-selected"></div>
+				<p class="tab-text-inner">work</p>
+			</div>
+			<div class="tab-footer color-2"></div>
 		</span
-		><span class="colored-bg-tab color-3 tab-3">
-			<p class="tab-text">resume</p>
+		><span class="colored-bg-tab tab-3">
+			<div class="tab-text">
+				<div class="tab-bg-unselected"></div>
+				<p class="tab-text-inner">resume</p>
+			</div>
+			<div class="tab-footer color-3"></div>
 		</span
-		><span class="colored-bg-tab color-4 tab-4">
-			<p class="tab-text">blog</p>
+		><span class="colored-bg-tab tab-4">
+			<div class="tab-text">
+				<div class="tab-bg-unselected"></div>
+				<p class="tab-text-inner">blog</p>
+			</div>
+			<div class="tab-footer color-4"></div>
 		</span
-		><span class="colored-bg-tab color-5 tab-5">
-			<p class="tab-text alt-text-color">contact</p>
+		><span class="colored-bg-tab tab-5">
+			<div class="tab-text">
+				<div class="tab-bg-unselected"></div>
+				<p class="tab-text-inner">contact</p>
+			</div>
+			<div class="tab-footer color-5"></div>
 		</span>
-		<div class="tab-bottom-bar color-2"></div>
 	</div>
 	
 	<div class="content-holder-main"> 
-		<div class="page-title font-color-2">Projects</div>
+		<div class="page-title-holder"> 
+			<div class="page-title">
+				Work/Projects
+				<div class="page-title-underline"></div>
+			
+			</div>
+		</div>
 		<div class="projects-row"> 
-			<div class="project-box">
+			<div class="project-box white-bg default-shadow p1-card" id="p1">
 				<div class="project-box-tab-cover"></div>
 				<div class="project-box-tab">
-					<div class="project-box-tab-text">Drop</div>
+					<div class="project-box-tab-text p1-title"></div>
 					<i class="material-icons project-box-arrow" style="font-size:1.4em;">arrow_forward</i>
 				</div>
 			</div>
-			<div class="project-box">
+			<div class="project-box white-bg default-shadow p2-card" id="p2">
 				<div class="project-box-tab-cover"></div>
 				<div class="project-box-tab">
-					<div class="project-box-tab-text">Project 1</div>
+					<div class="project-box-tab-text p2-title"></div>
 					<i class="material-icons project-box-arrow" style="font-size:1.4em;">arrow_forward</i>
 				</div>
 			</div>
-			<div class="project-box">
+			<div class="project-box white-bg default-shadow p3-card" id="p3">
 				<div class="project-box-tab-cover"></div>
 				<div class="project-box-tab">
-					<div class="project-box-tab-text">Project 2</div>
-					<i class="material-icons project-box-arrow" style="font-size:1.4em;">arrow_forward</i>
-				</div>
-			</div>
-		
-			<div class="project-box">
-				<div class="project-box-tab-cover"></div>
-				<div class="project-box-tab">
-					<div class="project-box-tab-text">Project 3</div>
-					<i class="material-icons project-box-arrow" style="font-size:1.4em;">arrow_forward</i>
-				</div>
-			</div>
-			<div class="project-box">
-				<div class="project-box-tab-cover"></div>
-				<div class="project-box-tab">
-					<div class="project-box-tab-text">Project 4</div>
-					<i class="material-icons project-box-arrow" style="font-size:1.4em;">arrow_forward</i>
-				</div>
-			</div>
-			<div class="project-box">
-				<div class="project-box-tab-cover"></div>
-				<div class="project-box-tab">
-					<div class="project-box-tab-text">Project 5</div>
+					<div class="project-box-tab-text p3-title"></div>
 					<i class="material-icons project-box-arrow" style="font-size:1.4em;">arrow_forward</i>
 				</div>
 			</div>
 		
-			<div class="project-box">
+			<div class="project-box white-bg default-shadow p4-card" id="p4">
 				<div class="project-box-tab-cover"></div>
 				<div class="project-box-tab">
-					<div class="project-box-tab-text">Project 6</div>
+					<div class="project-box-tab-text p4-title"></div>
 					<i class="material-icons project-box-arrow" style="font-size:1.4em;">arrow_forward</i>
 				</div>
 			</div>
-			<div class="project-box">
+			<div class="project-box white-bg default-shadow p5-card" id="p5">
 				<div class="project-box-tab-cover"></div>
 				<div class="project-box-tab">
-					<div class="project-box-tab-text">Project 7</div>
+					<div class="project-box-tab-text p5-title"></div>
 					<i class="material-icons project-box-arrow" style="font-size:1.4em;">arrow_forward</i>
 				</div>
 			</div>
-			<div class="project-box">
+			<div class="project-box white-bg default-shadow p6-card" id="p6">
 				<div class="project-box-tab-cover"></div>
 				<div class="project-box-tab">
-					<div class="project-box-tab-text">Project 8</div>
+					<div class="project-box-tab-text p6-title"></div>
+					<i class="material-icons project-box-arrow" style="font-size:1.4em;">arrow_forward</i>
+				</div>
+			</div>
+		
+			<div class="project-box white-bg default-shadow p7-card" id="p7">
+				<div class="project-box-tab-cover"></div>
+				<div class="project-box-tab">
+					<div class="project-box-tab-text p7-title"></div>
+					<i class="material-icons project-box-arrow" style="font-size:1.4em;">arrow_forward</i>
+				</div>
+			</div>
+			<div class="project-box white-bg default-shadow p8-card" id="p8">
+				<div class="project-box-tab-cover"></div>
+				<div class="project-box-tab">
+					<div class="project-box-tab-text p8-title"></div>
+					<i class="material-icons project-box-arrow" style="font-size:1.4em;">arrow_forward</i>
+				</div>
+			</div>
+			<div class="project-box white-bg default-shadow p9-card" id="p9">
+				<div class="project-box-tab-cover"></div>
+				<div class="project-box-tab">
+					<div class="project-box-tab-text p9-title"></div>
 					<i class="material-icons project-box-arrow" style="font-size:1.4em;">arrow_forward</i>
 				</div>
 			</div>
@@ -101,6 +129,9 @@
 	
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/projectInfo.js"></script>
+<script src="js/projects.js"></script>
+
 
 </body>
 </html>

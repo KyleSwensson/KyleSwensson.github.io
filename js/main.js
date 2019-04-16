@@ -1,47 +1,33 @@
-$( ".tab-1" ).click(function() {
-    $(".tab-bottom-bar" ).animate({
-		height: "0%",
+
+function goToLocation(loc) {
+	$(".tab-bg-selected").animate({ 
+		width: 0
 	}, 300);
-	
+		
 	$(".content-holder-main").animate({
 		opacity: 0,
-	}, 500, function () {
-		window.location.href = 'about.html';
+	}, 300, function () {
+		window.location.href = loc;
 	});
+}
+
+
+$( ".tab-1" ).click(function() {
+	goToLocation('about.html');
 });
 
 $( ".tab-2" ).click(function() {
-    $(".tab-bottom-bar" ).animate({
-		height: "0%",
-	}, 300);
-	
-	$(".content-holder-main").animate({
-		opacity: 0,
-	}, 500, function () {
-		window.location.href = 'projects.html';
-	});
+	goToLocation('projects.html');
 });
 
 $( ".tab-3" ).click(function() {
-    $(".tab-bottom-bar" ).animate({
-		height: "0%",
-	}, 300);
-	
-	$(".content-holder-main").animate({
-		opacity: 0,
-	}, 500, function () {
-		window.location.href = 'resume.html';
-	});
+	goToLocation('resume.html');
+});
+
+$( ".tab-4" ).click(function() {
+	goToLocation('blog.html');
 });
 
 $( ".tab-5" ).click(function() {
-    $(".tab-bottom-bar" ).animate({
-		height: "0%",
-	}, 300);
-	
-	$(".content-holder-main").animate({
-		opacity: 0,
-	}, 500, function () {
-		window.location.href = 'contact.html';
-	});
+	goToLocation('contact.html');
 });

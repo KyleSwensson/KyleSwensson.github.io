@@ -1,11 +1,11 @@
 <html>
 <head>
 	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/contact.css">
+	<link rel="stylesheet" href="css/individualProject.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="SHORTCUT ICON" href="img/favicon.ico" type="image/x-icon" />
 	<link rel="ICON" href="img/favicon.ico" type="image/ico" />
-	<title>Contact | Kyle Swensson</title>
+	<title>Work | Kyle Swensson</title>
 </head>
 
 <body>
@@ -22,6 +22,7 @@
 		><span class="colored-bg-tab tab-2">
 			<div class="tab-text">
 				<div class="tab-bg-unselected"></div>
+				<div class="tab-bg-selected"></div>
 				<p class="tab-text-inner">work</p>
 			</div>
 			<div class="tab-footer color-2"></div>
@@ -43,7 +44,6 @@
 		><span class="colored-bg-tab tab-5">
 			<div class="tab-text">
 				<div class="tab-bg-unselected"></div>
-				<div class="tab-bg-selected"></div>
 				<p class="tab-text-inner">contact</p>
 			</div>
 			<div class="tab-footer color-5"></div>
@@ -52,35 +52,35 @@
 	
 	<div class="content-holder-main"> 
 		<div class="page-title-holder"> 
-			<div class="page-title">
-				Contact
+			<div class="page-title p-name">
+				
 				<div class="page-title-underline"></div>
+			</div>
+		</div>
+		
+		<div class="content-holder-main-inner">
+			<div class="content-holder-1 white-bg dark-text default-shadow">
+				<div class="content-header p-description-header">
+					Technologies
+				</div>	
+				<div class="p-technologies"></div>
+			</div>
 			
-			</div>
-		</div>
-		
-		<div class="content-holder-1 white-bg dark-text default-shadow">
-			<div>Looking for an enthusiastic, communicative, and punctual software developer who loves dogs and bakes a mean cookie?</div>
-			<div class="contact-text-highlight">
-				You're in luck!
-				<div class="contact-text-highlight-underline"></div>
-			</div>
-			<div>By some wild coincidence, I just happen to perfectly fit the set of qualifications I've conveniently listed for you, and I'd also probably love to work with you! If you feel the same way, please don't hesitate to reach out 🙂</div>
-		</div>
-		
-		<div class="contact-button-holder">
-			<a class="contact-button" href="mailto:kyle.swensson@gmail.com?Subject=Hi%20Kyle!" target="_top">
-				<div>
-					Email me
+			<div class="content-holder-1 white-bg dark-text default-shadow">
+				<div class="slideshow-holder">
+					<!-- Slides are dynamically added via JS -->
+					<!-- Next and previous buttons -->
+					<a class="slideshow-prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="slideshow-next" onclick="plusSlides(1)">&#10095;</a>
 				</div>
-				<i class="material-icons" style="font-size:1.2em;">mail_outline</i>
-			</a>
-
+			</div>
 		</div>
 	</div>
 	
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/projectInfo.js"></script>
+<script src="js/individualProject.js"></script>
 
 </body>
 </html>

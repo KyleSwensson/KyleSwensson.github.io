@@ -1,6 +1,13 @@
+@font-face {
+    font-family: localRubik;
+	font-display: swap;
+    src:url("font/Rubik-Regular.ttf");
+}
+
 body {
   padding: 0;
   margin: 0;
+  background-color: #f0f0f0;
 }
 
 .tab-header {
@@ -52,31 +59,49 @@ body {
 	color: #FFFFFF;
 }
 
+.white-bg {
+	background-color: #ffffff;
+}
+
+.dark-text {
+	color: #505050;
+}
+
+.default-shadow {
+	box-shadow: 0 4px 0px #006fff42;
+
+}
+
 .alt-text-color {
 	color: #a6a6a6 !important;
 }
 
 .colored-bg-tab {
+	cursor: pointer;
 	display: inline-block;
 	top: 0%;
 	width: 20%;
-	height: 83%;
-}
-
-.tab-bottom-bar {
-	width: 100%;
-	height: 17%;
-	animation: 0.5s ease-in-out 0s 1 slideDown;
+	height: 100%;
 }
 
 .tab-text {
-	color: #ffffff;
-	font-family: 'Rubik', sans-serif;
-	font-size: 1.4em;
-	font-weight: 600;
+	position: relative;
+	height: 83%;
+	margin-top: 0;
+}
+
+.tab-text-inner {
 	padding-top: 0.25em;
 	padding-left:0.6em;
 	margin-top: 0;
+	color: #505050;
+	font-family: 'localRubik', sans-serif;
+	font-size: 1.4em;
+	font-weight: 600;
+}
+
+.tab-footer {
+	height: 17%;
 }
 
 .content-holder-main {
@@ -84,8 +109,12 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 6vh;
-	font-family: 'Rubik', sans-serif;
-	animation: 0.8s ease-in-out 0s 1 fadeInContent;
+	font-family: 'localRubik', sans-serif;
+	animation: 0.5s ease-in-out 0s 1 fadeInContent;
+}
+
+.page-title-holder {
+	text-align: center;
 }
 
 .page-title {
@@ -93,10 +122,39 @@ body {
 	text-align:center;
 	font-weight: 600;
 	padding-top: 0.5em;
+	display: inline-block;
+	color: #3e7dd5;
+}
+
+.page-title-underline {
+	width: 100%;
+	height: 0.2em;
+	margin-top: -0.1em;
+	margin-left: 0.35em;
+	background-color: #acc4e4;
 }
 
 button {
 	border: 0;
+}
+
+.tab-bg-selected {
+	width: 100%;
+    height: 100%;
+    top: 0%;
+    position: absolute;
+	background-color: #e9ebff;
+	z-index: -99;
+	animation: 0.4s ease-out 0s 1 growWidth;
+}
+
+.tab-bg-unselected {
+	width: 100%;
+    height: 100%;
+    top: 0%;
+    position: absolute;
+	z-index: -100;
+	background-color: #ffffff;
 }
 
 @keyframes fadeInContent {
@@ -111,12 +169,11 @@ button {
     }
 }
 
-@keyframes slideDown {
+@keyframes growWidth {
     0% {
-        height: 0%;
+        width: 0%;
     }
-    100% {
-        height: 17%;
+   100% {
+        width: 100%;
     }
 }
-
