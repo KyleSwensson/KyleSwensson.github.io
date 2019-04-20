@@ -1,6 +1,6 @@
 .abs-background {
 	position: absolute;
-	background-color: #ffffff;
+	background-color: #f0f0f0;
 	left: 0%;
 	top: 0%;
 	width: 100%;
@@ -13,11 +13,12 @@
 	width: 20%;
 	height: 100%;
 	text-align: center;
+	z-index: 100;
 }
 
 .category-text {
 	color: #ffffff;
-	font-family: 'Rubik', sans-serif;
+	font-family: 'localRubik', sans-serif;
 	margin-top: 70vh;
 	font-size: 3em;
 	font-weight: 900;
@@ -26,7 +27,7 @@
 .index-title {
 	background-color: #ffffff;
 	color: #000000;
-	font-family: 'Rubik', sans-serif;
+	font-family: 'localRubik', sans-serif;
 	font-size: 5em;
 	font-weight: 900;
 	mix-blend-mode: screen; /* This makes the cutout text possible */
@@ -36,6 +37,9 @@
 	margin-right: auto;
 	margin-top: 8vh;
 	border-radius: 0.1em;
+	position: relative;
+	z-index: 101;
+	animation: 0.8s ease-in-out 0s 1 fadeInDelayed;
 }
 
 .text-white {
@@ -77,9 +81,8 @@
 	animation: 1.2s ease-in-out 0s 1 slideInFromTop;	
 }
 
-.tab-text {
-	opacity: 0;
-	display: none;
+.colored-bg-tab {
+	animation: 0.8s ease-in-out 0s 1 fadeInDelayed;
 }
 
 
@@ -89,5 +92,17 @@
     }
     100% {
         transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDelayed {
+    0% {
+        opacity: 0;
+    }
+	50% {
+		opacity: 0;
+	}
+    100% {
+        opacity: 1;
     }
 }

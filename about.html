@@ -1,99 +1,155 @@
 <html>
 <head>
-	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/about.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="SHORTCUT ICON" href="img/favicon.ico" type="image/x-icon" />
+	<link rel="ICON" href="img/favicon.ico" type="image/ico" />
+	<title>About | Kyle Swensson</title>
+	
+
 </head>
 
 <body>
-	
 	<div class="tab-header">
 	<!-- weird spacing on these spans to avoid spaces between inline-block elements -->
-		<span class="colored-bg-tab color-1 tab-1">
-			<p class="tab-text">about</p>
+		<span class="colored-bg-tab tab-1">
+			<div class="tab-text">
+				<div class="tab-bg-unselected"></div>
+				<div class="tab-bg-selected"></div>
+				<p class="tab-text-inner">about</p>
+			</div>
+			<div class="tab-footer color-1"></div>
 		</span
-		><span class="colored-bg-tab color-2 tab-2">
-			<p class="tab-text">projects</p>
+		><span class="colored-bg-tab tab-2">
+			<div class="tab-text">
+				<div class="tab-bg-unselected"></div>
+				<p class="tab-text-inner">projects</p>
+			</div>
+			<div class="tab-footer color-2"></div>
 		</span
-		><span class="colored-bg-tab color-3 tab-3">
-			<p class="tab-text">resume</p>
+		><span class="colored-bg-tab tab-3">
+			<div class="tab-text">
+				<div class="tab-bg-unselected"></div>
+				<p class="tab-text-inner">resume</p>
+			</div>
+			<div class="tab-footer color-3"></div>
 		</span
-		><span class="colored-bg-tab color-4 tab-4">
-			<p class="tab-text">blog</p>
+		><span class="colored-bg-tab tab-4">
+			<div class="tab-text">
+				<div class="tab-bg-unselected"></div>
+				<p class="tab-text-inner">blog</p>
+			</div>
+			<div class="tab-footer color-4"></div>
 		</span
-		><span class="colored-bg-tab color-5 tab-5">
-			<p class="tab-text alt-text-color">contact</p>
+		><span class="colored-bg-tab tab-5">
+			<div class="tab-text">
+				<div class="tab-bg-unselected"></div>
+				<p class="tab-text-inner">contact</p>
+			</div>
+			<div class="tab-footer color-5"></div>
 		</span>
-		<div class="tab-bottom-bar color-1"></div>
 	</div>
 	
 	<div class="content-holder-main"> 
+		<div class="page-title-holder"> 
+			<div class="page-title font-color-3">
+				About
+				<div class="page-title-underline"></div>
+			
+			</div>
+		</div>
 		<div class="content-holder-1">
-			<img class="self-pic" src="img/profile.jpg" alt="profile picture">
-			<div class="about-me-text color-1"> 
-				<div class="about-me-intro">Hi, I'm Kyle!</div>
-				<div class="about-me-body">
-					I’m a software developer who recently graduated from UBC Vancouver, currently looking for work. I’m free starting June 1st. 
-					I have a lot of previous experience from personal projects, co-op terms, and school projects, and the areas I’m most confident 
-					in are web development (front-end and back-end) and game development.
+			<div class="content-holder-1-inner white-bg default-shadow">
+				<img class="self-pic" src="img/profile.jpg" alt="profile picture">
+				<div class="about-me-text dark-text"> 
+					<div class="about-me-intro">Hi, I'm Kyle!</div>
+					<div class="about-me-body">
+						I’m a software developer who just graduated from UBC Vancouver, and I'm currently looking for work. 
+						I have a lot of previous development experience from co-op work terms, personal projects, and school projects. I’m most confident 
+						in my skills in full-stack web development and game development, but I'm always up for a new challenge!
+					</div>
 				</div>
 			</div>
 		</div>
 				
 		<div class="content-holder-2">
-			<div class="skillset-box">
+			<div class="skillset-box default-shadow dark-text">
 				<div class="skillset-box-header">
 					<i class="skillset-icon material-icons" style="font-size:3em;">devices_other</i>
 					<div class="skillset-title">Front-end Developer</div>
 				</div>
-				<div class="skillset-description">sigma fings lorem ipsum apropri dingus bangoroo</div>
-				<div class="skillset-lesser-title">Tools:</div>
-				<div class="skillset-list-item">Webstorm</div>
-				<div class="skillset-list-item">Vim</div>
-				<div class="skillset-list-item">Android Studio</div>
-				
-				<div class="skillset-lesser-title">Languages:</div>
+				<div class="skillset-description">I love bringing ideas to life in the browser, and meticulously crafting user experiences.</div>
+
+				<div class="skillset-lesser-title">Languages/Libraries:</div>
 				<div class="skillset-list-item">HTML/CSS</div>
 				<div class="skillset-list-item">Javascript</div>
 				<div class="skillset-list-item">AngularJS</div>
 				<div class="skillset-list-item">jQuery</div>
+				<div class="skillset-list-item">GWT</div>
+
+				<div class="skillset-lesser-title">Dev Tools:</div>
+				<div class="skillset-list-item">Atom</div>
+				<div class="skillset-list-item">Webstorm</div>
+				<div class="skillset-list-item">Android Studio</div>
+				<div class="skillset-list-item">Bootstrap</div>
+				<div class="skillset-list-item">Github</div>
+				<div class="skillset-list-item">Bitbucket</div>
+				<div class="skillset-list-item">Terminal</div>
+				
 				<div class="skillset-box-ending"></div>
 			</div
-			><div class="skillset-box">
+			><div class="skillset-box default-shadow dark-text">
 				<div class="skillset-box-header">
 					<i class="skillset-icon material-icons" style="font-size:3em;">vertical_split</i>
 					<div class="skillset-title">Back-end Developer</div>
 				</div>
-				<div class="skillset-description">sigma fings lorem ipsum apropri dingus bangoroo</div>
-				<div class="skillset-lesser-title">Tools:</div>
-				<div class="skillset-list-item">IntelliJ</div>
-				<div class="skillset-list-item">Eclipse</div>
-				<div class="skillset-list-item">Vim</div>
-				<div class="skillset-list-item">Visual Studio</div>
+				<div class="skillset-description">I enjoy solving tough problems, and looking for efficient solutions to best suit the user.</div>
 				
 				<div class="skillset-lesser-title">Languages:</div>
 				<div class="skillset-list-item">Java</div>
 				<div class="skillset-list-item">C++</div>
 				<div class="skillset-list-item">C#</div>
+				<div class="skillset-list-item">C</div>
 				<div class="skillset-list-item">Python</div>
+				<div class="skillset-list-item">SQL</div>
+				
+				<div class="skillset-lesser-title">Dev Tools:</div>
+				<div class="skillset-list-item">IntelliJ</div>
+				<div class="skillset-list-item">Android Studio</div>
+				<div class="skillset-list-item">Eclipse</div>
+				<div class="skillset-list-item">Visual Studio</div>
+				<div class="skillset-list-item">MySQL</div>
+				<div class="skillset-list-item">Github</div>
+				<div class="skillset-list-item">Bitbucket</div>
+				<div class="skillset-list-item">Terminal</div>
+				
 				<div class="skillset-box-ending"></div>
 			</div
-			><div class="skillset-box">
+			><div class="skillset-box default-shadow dark-text">
 				<div class="skillset-box-header">
 					<i class="skillset-icon material-icons" style="font-size:3em;">videogame_asset</i>
 					<div class="skillset-title">Game Developer</div>
 				</div>
-				<div class="skillset-description">sigma fings lorem ipsum apropri dingus bangoroo</div>
-				<div class="skillset-lesser-title">Tools:</div>
+				
+				<div class="skillset-description">I love games, and being able to express my creativity by making my own is a dream come true.</div>
+
+				
+				<div class="skillset-lesser-title">Languages/Libraries:</div>
+				<div class="skillset-list-item">Java</div>
+				<div class="skillset-list-item">LibGDX</div>
+				<div class="skillset-list-item">C++</div>
+				<div class="skillset-list-item">C#</div>
+				<div class="skillset-list-item">Microsoft XNA</div>
+				<div class="skillset-list-item">ActionScript 3</div>
+				
+				<div class="skillset-lesser-title">Dev Tools:</div>
 				<div class="skillset-list-item">Unity</div>
 				<div class="skillset-list-item">IntelliJ</div>
 				<div class="skillset-list-item">Visual Studio</div>
-				
-				<div class="skillset-lesser-title">Languages:</div>
-				<div class="skillset-list-item">Java (with LibGDX)</div>
-				<div class="skillset-list-item">C++</div>
-				<div class="skillset-list-item">C# (with Unity and Microsoft XNA)</div>
+				<div class="skillset-list-item">Github</div>
+				<div class="skillset-list-item">Bitbucket</div>
+				<div class="skillset-list-item">Terminal</div>
 				<div class="skillset-box-ending"></div>
 			</div>
 			
