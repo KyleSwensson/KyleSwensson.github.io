@@ -40,7 +40,7 @@ function fillData(proj) {
 		$(".p-technologies").append("<div class='technology-label'>" + proj.technologies[i] + "</div>");
 	}
 	for (var i = proj.picnames.length - 1; i > -1; i--) { // Add these in reverse order since we're prepending
-		$(".slideshow-holder").prepend("<div class='slideshow-slide slideshow-fade'> <img src='img/"+proj.picnames[i]+"' style='max-height:15em'> <div class='slideshow-caption'>Caption Text</div> </div>");
+		$(".slideshow-holder").prepend("<div class='slideshow-slide slideshow-fade'> <img src='img/"+proj.picnames[i]+"' style='max-height:15em; max-width: 55vw'> </div>");
 	}
 	
 	showSlides(slideIndex);
