@@ -1,5 +1,5 @@
 $( ".resume-link-mentor" ).click(function() {
-	goToLocation('individualProject.html?proj=7');
+	goToLocation('individualProject.html?proj=2');
 });
 
 $( ".resume-link-lumin" ).click(function() {
@@ -7,9 +7,9 @@ $( ".resume-link-lumin" ).click(function() {
 });
 
 $( ".resume-link-maps" ).click(function() {
-	goToLocation('individualProject.html?proj=6');
+	goToLocation('individualProject.html?proj=4');
 });
 
 $( ".resume-link-drop" ).click(function() {
-	goToLocation('individualProject.html?proj=4');
+	goToLocation('individualProject.html?proj=3');
 });

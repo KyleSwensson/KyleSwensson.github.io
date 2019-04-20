@@ -29,6 +29,7 @@
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
 	padding-bottom: 4px;
+	display: inline-block;
 }
 
 .resume-link-holder-inner {
@@ -40,14 +41,14 @@
 	color: #ffffff;
 	width: 13em;
 	padding: 0.25em;
-	transition: background-color 0.25s, box-shadow 0.25s;
+	transition: background-color 0.25s;
 	background-color: #3f84de;
 	margin-bottom: 4px;
 	box-shadow: 4px 4px 0 #90c0ff;
 }
 
 .resume-link-holder-inner:hover {
-	transition: background-color 0.25s, box-shadow 0.25s;
+	transition: background-color 0.25s;
 	background-color: #71adfc;
 	box-shadow: 4px 4px 0 #bbd8ff;
 }
@@ -58,11 +59,12 @@
 	box-shadow: 0px 0px 0 #bbd8ff;
 }
 
+
 .resume-link-holder:active {
 	padding-top: 2px;
 	padding-bottom: 2px;
 	padding-left: 4px;
-}
+} 
 
 .text-date {
 	float: right;
@@ -76,10 +78,29 @@
 	margin-left: 1em;
 }
 
+.text-tabbed-more {
+	margin-left: 2em;
+}
+
 .spaced-below {
 	margin-bottom: 0.25em;
 }
 
 .spaced-below-more {
 	margin-bottom: 0.5em;
+}
+
+.bullet-holder {
+	padding-left: 1.2em;
+	position: relative;
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+}
+
+.bullet-arrow {
+	position: absolute;
+	left: 0;
+	color: #3e7dd5;
+	vertical-align: middle;
+	font-size: 1em;
 }
