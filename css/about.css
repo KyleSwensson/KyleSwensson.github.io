@@ -1,5 +1,6 @@
 .self-pic {
-	width: 23%;
+	width: 15vw;
+	height: 15vw;
 	border-radius: 100%;
 	margin: 1em;
 }
@@ -13,7 +14,6 @@
 .content-holder-1-inner {
 	display: flex; /* or inline-flex */
 	width: 100%;
-
 }
 
 .content-holder-2 {
