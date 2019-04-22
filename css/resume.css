@@ -104,3 +104,37 @@
 	vertical-align: middle;
 	font-size: 1em;
 }
+
+.pdf-button {
+	color: #ffffff;
+	background-color: #0e6ff7;
+	font-weight: 600;
+	padding: 0.35em;
+	font-size: 1.6em;
+	display: inline-block;
+	text-align: center;
+	
+	transition: background-color 0.25s;
+	background-color: #3f84de;
+	margin-bottom: 4px;
+	box-shadow: 4px 4px 0 #90c0ff;
+}
+
+.pdf-button:hover {
+	transition: background-color 0.25s;
+	background-color: #71adfc;
+	box-shadow: 4px 4px 0 #bbd8ff;
+}
+
+.pdf-button:active {
+	transition: background-color 0.25s;
+	background-color: #417ece;
+	box-shadow: 0px 0px 0 #bbd8ff;
+	margin-top: 4px;
+	margin-left: 4px;
+}
+
+.pdf-button-holder {
+	text-align: center;
+	margin-top: 1.5em;
+}
